@@ -59,10 +59,31 @@ body {
     
 }
 
-.introductionWrapper {
-    border-radius: 25px;
+.introductionWrapper {    
+    width: 960px;
+    height: 220px;    
+    border: 10px solid;
+    border-bottom: 0;
+    border-radius: 25px 25px 0 0;
+    border-color: #F1B24A;
+    margin: 40px auto 0 auto;
+    padding: 10px;
+}
+
+.introductionWrapper p {
+    font-family: 'Roboto Mono', monospace;
+    color: #FFFFFF;
+}
+
+h1 {  
+    font-family: 'Roboto Mono', monospace;  
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.skillSection {
     background-color: #F1B24A;
-    margin: 10px auto;
+
 }
 /* Dark Green: #164A41
 Medium Green: #4D774E
